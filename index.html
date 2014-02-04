@@ -1,17 +1,87 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!--Es una declaración del lenguaje que usaremos-->
+<html lang = "es"> <!--Todas las webs deben tener un idioma-->
 
-<html lang = "es">
 <head>
-	<meta charset = "utf-8" />
+	<meta charset = "utf-8" /> <!--La codificación-->
+	<meta description = "Proyecto de la cuarta generación" /> <!--En cada página debe haber una descripción-->
 	<title>Proyecto web de la cuarta generación</title>
 </head>
 <body>
+
+
+<!--Header-->
+
+
 	<header>
-		<figure>
-			<img src="logo.png">
+		<figure id = "logo">
+			<img src="logo.png" />
 			<figcaption>El logotipo</figcaption>
 		</figure>
+		<h1>
+			Pulse 2014. Comunidad de publicaciones raras
+		</h1>
+		<figure id ="avatar">
+			<img src="avatar.jpg" />
+		</figure>
 	</header>
+
+
+<!--Barra de navegación-->
+
+
+	<nav>
+		<ul>
+			<li><a href = "#">Python</a></li>
+			<li><a href = "#"></a>HTML5</li>
+			<li><a href = "#"></a>Javascript</li>
+			<li><a href = "#"></a>CSS3</li>
+			<li><a href = "#"></a>Django</li>
+			<li id ="publicar_nav"><a href = "#"></a>Publicar</li>
+		</ul>
+	</nav>
+
+<!--Contenido-->
+
+	<section id = "contenido">
+		<article class ="item">
+			<figure class = "imagen_item">
+				<img src = "imagen.jpg" />
+			</figure>
+			<h2 class = "titulo_item">
+				<a href="#">Title of the article</a>
+			</h2>
+			<div class ="autor_item">
+				por<a href="#">Fabiola Flores</a>
+			</div>
+			<div class ="datos_item">
+				<a href="#"class ="tag_item">pony</a>
+				<span class ="fecha_item">
+					hace <strong>5</strong> min
+				</span>
+				<a href="#" class ="comentarios_item">85</a>
+				<a href="#" class ="guardar_item"></a>
+			</div>
+			<div class ="votacion"></div>
+			<a href="#" class ="up"></a>
+			720
+			<a href="#" class ="down"></a>
+		</article>
+	</section>
+
+<!--Pie-->
+
+
+	<footer>
+		<p>
+			<strong>Powered by Pony</strong>
+		</p>
+		<p>
+			David Ordóñez Cornejo
+		</p>
+	</footer>
+
+
+
 </body>
 
 </html>
