@@ -1,0 +1,15 @@
+El responsive design no debe responder al tamaño de los dispositivos, debe responder al disño mismo. Responde a las necesidades del diseño.
+
+Sin embargo, hay tamaños a considerar
+
+320px tamaño del iphone, minimo y maximo
+
+Los dispositivos android, andan como por los 15 resoluciones.
+
+Un diseño a 1980, es demasiado intenso, 1200 px es una buena idea como máximo.
+
+Ya no deberiamos uar ftp
+
+Ahora hay que trabajar con sistemas de control de versiones
+
+SVN: Subversion / Mercurial / TFS / CVS / GIT
