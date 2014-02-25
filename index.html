@@ -8,7 +8,6 @@
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="normalize.css">
 	<link rel="stylesheet" href="estilos.css">
-</head>
 
 <!--Comienza la maqueta de mi página-->
 
@@ -40,6 +39,30 @@
 			<li id ="publicar_nav"><a href = "#" class = "icon-lapiz">Publicar</a></li>
 		</ul>
 	</nav>
+
+
+<!-- UN FORMULARIO EN JAVASCRIPT-->
+
+	<form action = "" id ="formulario" class = "formulario">
+
+	<!--Para etiquetar titulo por medio del id:
+
+		<label for = "titulo">Título:</label> 
+	-->
+		
+		<input type = "text" id = "titulo" placeholder = "Título" required>
+
+	<!--Para etiquetar titulo por medio del id:
+
+		<label for = "titulo">Título:</label> 
+	-->
+
+		<input type = "url" id = "url" placeholder = "Link" required> 
+
+		<input type = "submit" value = "Agregar">
+
+	</form>
+
 
 <!-- Un aside de video -->
 
@@ -213,8 +236,12 @@
 		</p>
 	</footer>
 
-<!--Termina la maqueta de mi página-->
+<!--Aquí meto los scripts-->
+
+	<script src="script.js"></script>
 
 </body>
 
 </html>
+
+<!--Termina la maqueta de mi página-->
