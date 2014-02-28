@@ -1,3 +1,3 @@
 // Comportamientos en Jquery
 
-alert("Hola, interrumpo??");
+console.log("Hola amigos");
