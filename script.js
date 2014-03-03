@@ -25,8 +25,6 @@ function agregarPost(){
 	$clone = $post.clone();
 
 	return false; // Es un prevent default
-
-	clone = 
 }
 
 // Eventos
