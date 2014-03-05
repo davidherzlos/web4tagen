@@ -1,10 +1,5 @@
-// $(document).on("click", "listeners");
-
-// $(#item).on("click"."opacidad");
-
-// $function opacidad () {
-// 	// body...
-// }
+// En JS se trabaja con elementos como representaciones, no es lo mismo que un tag, tiene más propiedades
+// Se trabaja con el api del documento de html
 
 var $form =$('#formulario'),
 	$titulo =$('#titulo'),
