@@ -313,8 +313,8 @@ nav ul #publicar_nav a
 {
 	padding: 1em;
 	text-align: right;
-/*	display: none;
-*/
+	display: none;
+
 }
 .formulario input
 {
