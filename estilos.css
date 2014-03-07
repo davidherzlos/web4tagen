@@ -12,6 +12,10 @@
     font-style: normal;
 
 }*/
+
+/*Para resolver un problema con la fuente de google y ajax, ver clase 5*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
 @font-face {
 	font-family: 'puls4';
 	src:url('fuentes/puls4.eot?p5r9mm');

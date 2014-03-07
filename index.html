@@ -5,9 +5,9 @@
 	<meta name="description" content = "Proyecto de la cuarta generación" /> <!--En cada página debe haber una descripción-->
 	<meta name="viewport" content = "width=device-width, minimum-scale=1, maximun-scale=1" /> <!--Aquí se trabaja con el viewport, viene con ancho variable, escala mímina o máxima-->
 	<title>Proyecto web de la cuarta generación</title>
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="normalize.css">
 	<link rel="stylesheet" href="estilos.css">
+	<script src="prefixfree.min.js"></script>
 
 <!--Comienza la maqueta de mi página-->
 
@@ -240,7 +240,14 @@
 
 	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script src="script.js"></script>
-
+	<script type="text/javascript">
+	window.onload = function  () {
+		console.log('Lista la carga de la página, ya se disparó el evento onload');
+	}
+	$(function () {
+		console.log('El documento ya se ha acabado de cargarito');
+	});
+	</script>
 </body>
 
 </html>
