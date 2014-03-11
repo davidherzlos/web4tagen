@@ -68,7 +68,7 @@
 
 	<aside>
 		<video width="320" height="240" controls>
-		  <source src="video/lecturas.mp4" type="video/mp4">
+		  <source src="video/lecturas.m4v" type="video/m4v"><!-- Se cambión mp4 por m4v -->
 		  <source src="video/lecturas.ogg" type="video/ogg">
 		  <source src="video/lecturas.webm" type="video/webm">
 		<!-- Actualiza tu navegador -->
@@ -240,12 +240,24 @@
 
 	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script src="script.js"></script>
+	<script src="geo.js"></script>
+	<script src="ajax.js"></script>
+	
 	<script type="text/javascript">
+	// Para identificar el DOMContentLoaded
+
 	window.onload = function  () {
-		console.log('Lista la carga de la página, ya se disparó el evento onload');
+		console.log('Lista la carga de la página, ya se disparó el evento Window.onload');
 	}
-	$(function () {
-		console.log('El documento ya se ha acabado de cargarito');
+
+	$(document).on('ready',function () {
+		console.log('Ya se ha disparado el DOMContentLoaded');
+	});
+
+	// Un atajo...
+
+	$(function() {
+		console.log('Ya se ha disparado el DOMContentLoaded');
 	});
 	</script>
 </body>

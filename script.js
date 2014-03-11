@@ -21,10 +21,12 @@ var $form = $('#formulario'),
 // Funciones con los efectos jQuery
 
 
-function mostrarFormulario(){
+function mostrarOcultarFormulario(){
 
+	$list.slideToggle();
 	$form.slideToggle();
 	return false; // Es un prevent default, es importante
+
 }
 
 function agregarPost(){
@@ -40,14 +42,15 @@ function agregarPost(){
 		.text(titulo)
 		.attr('href',url);
 		$clone.hide();
-
 		$list.prepend($clone); // Embeber el nuevo item en el contenido
-		$clone.fadeIn('slow'); // Hacer efecto al clone nuevo al aparecer
-
+		mostrarOcultarFormulario();
+		$titulo.val(''); //Se setea a valor vacio
+		$url.val(''); //Se setea a valor vacio
+		$clone.slideDown(); // Se cambia fadeIn por slideDown
 		return false; // Es un prevent default, es importante, para cancelar el submit de html
 }
 
 // Manejadores de eventos, Eventos o (listener)
 
-$button.click(mostrarFormulario);
+$button.click(mostrarOcultarFormulario);
 $form.on('submit', agregarPost);
