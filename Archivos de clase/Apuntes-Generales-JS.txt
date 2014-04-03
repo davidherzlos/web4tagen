@@ -1,24 +1,28 @@
-Apuntes
+Apuntes Básicos
 
 Cuando los applets de java fallaron, Javascript se convirtió en el lenguaje por default para la web.
 
-El estandar que define javascript actualmente es el ECMAScript en subtercera edición. Javascript es un subconjunto correcto de ECMAScript.
+El estandar que define javascript actualmente es el ECMAScript en su tercera edición. 
+
+Javascript es un subconjunto correcto de ECMAScript.
 
 La popularidad de Javascript es independiente de sus cualidades como lenguaje de programación.
 
 Javascript es un lenguaje de programación altamente expresivo y dinámico.
 
-El conjunto de buenas partes de javascrippt es mejor que el lenguaje completo, lo hace mas confiable, legible y mantenible.
+El conjunto de buenas partes de javascrippt es mejor que el lenguaje completo, lo hace mas confiable, legible y mantenible. (crockford)
 
-Javascript se puede subdividir en un conjunto de buenas y malas partes, es recomendable enfocarse en las buenas y evitar las malas.
+Javascript se puede subdividir en un conjunto de buenas y malas partes, es recomendable enfocarse en las buenas y evitar las malas. (crockford)
 
+La API del browser, es el DOM, Document Object Model.
 
-La API del browser, es el DOM, Document Object Model
-El DOM está pobremente specificado e implementado inconsistentemente. Esto tiene relación con que la implementación del DOM difiere según el explorador y se vuelve necesario el aprendizaje tomando en cuenta el cross browser compatibility. Jquery, por ejemplo, facilita las diferencias de cada navegador y hace las aps mas compatibles.
+Javascript interactua con la API (Aplication interface programing) del browser, que es el DOM.
+
+Según crockford el DOM está pobremente specificado e implementado inconsistentemente. Esto tiene relación con que la implementación del DOM difiere según el explorador y se vuelve necesario el aprendizaje tomando en cuenta el cross browser compatibility. Jquery, por ejemplo, facilita las diferencias de cada navegador y hace las aps mas compatibles.
 
 Javascript tiene diferencias significativas a cualquier otro lenguaje de programación. Es un lenguaje orientado a objetos, basado en prototypos, funcional y asincrono. También es maneja los scopes de manera distinta a los lenguajes tradicionales.
 
-La programación funcional es muy divertida.
+La programación funcional es muy divertida. Desarrollar más
 
 Las ideas buenas en javascript son: funciones, ausencia de validación de tipos de datos, Objetos dinámicos y una notación de literales de objetos muy expresiva(arrays, objects, functions )
 
@@ -39,7 +43,7 @@ La notación de literales de objeto en javascript, es la inspiración para JSON,
 
 Un aspecto controversial de javascript es el tema de la herencia prototipica, basada en prototipos mas que en clases. El lenguaje está libre de clases y los objetos heredan propiedades directamente de otros.
 
-No es conveniente usar patrones de diseño basado en clases en javascript, conviene aprender la naturaleza pototipica del lenguaje.
+No es conveniente usar patrones de diseño basado en clases en javascript, conviene aprender la naturaleza prototipica del lenguaje.
 
 Javascript es muy difamado por la elección de sus conceptos clave. Uno de ellos que realmente es malo es que depende de las variables globales para su vinculación. Todas las variables de nivel superior y todas la unidades de compilación son puestas juntas en el espacio de nombres llamado el objeto global, osea window. Las variables globales son evil pero fundamentales en javascript. Javascript provee mecanismos para enfrentar el problema.
 
@@ -64,6 +68,9 @@ el uso de avoid
 Algunas herramientas para trabajar con Javascript:
 
 JSLint, es un parser(analizador) de javascript que es muy estricto y evidencía las malas partes.
+
+
+
 
 
 

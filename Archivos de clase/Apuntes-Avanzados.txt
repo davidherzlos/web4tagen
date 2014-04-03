@@ -1,0 +1,58 @@
+Apuntes-Avanzados
+
+Es indispensable escribir codigo javascript compatible con todos los exploradores, no es facil.
+
+Hay que escribir código limpio
+
+Hay que lidiar con las diferencias obtusas y complejas de los navegadores.
+
+Para lidiar con estos retos, los desarrolladores de javascript comúnmente desarrollan y capturan conjuntos de funcionalidades comunes y reutilizables en forma de librerías javascript, por ejemplo JQuery.
+
+Estas librerías varían en complejidad, contenido y aprovechamiento, pero conservan una característica común, que es que necesitan ser faciles de utilizar y ser capaces de trabajar en todos los navegadores que sean de nuestra elección.
+
+Entender como están hechas las mejores librerías de javascript nos puede dar una muy buena agudeza, de cómo nuestro  código puede ser construido para mantener estas mismas metas.
+
+Es el libro, se examina las técnicas que han sido y siguen siendo usadas para crear las populares librerías de javascript
+
+Las tecnicas no son solamente usadas para hacer grandes librerías, también pueden ser usadas en piezas mas pequeñas de código hecho por nosotros, independientemente del tamaño.
+
+
+
+La caracterización de una librería javascript puede ser descompuesta en tres aspectos:
+
+1 Uso avanzado del lenguaje javascript
+2 Construcción meticulosa de código multi-navegadores
+3 El uso de las actuales mejores prácticas que aten todo junto, o lo unan.
+
+Es muy conveniente repasar estos tres aspectos en cada pedazo de código que escribamos
+
+
+
+Entendiendo el lenguaje javascript
+
+Muchos javascript coders, a lo largo de su aprendizaje, pueden llegar al punto de usar activamente un amplio arreglo de elementos que comprenden el lenguaje, incluyendo objetos, arrays, funciones, etc, y prestando un poco de atención a las tendencias, pueden inclusive usar funciones anonimas inline. 
+
+En muchos casos, ese uso no pasa de los niveles de entendimiento fundamentales. Adicionallmente, el entendimiento del propósito de la implementación de los closures en javascript es muy pobre. Estos son fundamental e irrevocablemente ejemplos de la importancia de las funciones para el lenguaje.
+
+Javascript consiste en una relación muy intima entre:
+
+los objetos, funciones y closures
+
+
+Entendiendo la relación fuerte que existe entre estos tres conceptos, puede mejorar bastamente nuestra habilidad para programar en javascript, dándonos un un fuerte fundamento para el desarrollo de cualquier aplicación.
+
+Muchos programadores javsscript, sobretodo aquellos que vienen de un contexto de la programación orientada a objetos, pueden llegar a poner atención sólo a los objetos. pero con el costo de entender cómo las funciones y closures contribuyen al panorama.
+
+Adicionalmente, es importante entender qe hay dos características en javascript que son lamentablemente infrautilizadas, expresiones regulares y timers. Estos dos conceptos tiene aplicación en cirtualmete cualquier base de código, pero no son usados con su potencial pleno por su naturaleza incomprendida.
+
+Un conocimiento firme de como funcionan los timers en los exploradores, todos frecuentemente un misterio, nos da la habilidad e enfrentar tareas de codificación compleja como largas ejecuciones y animaciones lisas y fluidas.
+
+Y un leve entendimiento de las expresiones regulares nos permitiran simplificar lo que de otra manera serían complicadas piezas de código. Otro punto al que echaremos un vistazo son las expresiones with, y el metodo divisivo eval(). Los dos son importantes, pero muy controversiales características que han sido trivializadas, inutilizadas, e inclusive condenadas por varios programadores javascript.
+
+
+
+
+
+
+
+
