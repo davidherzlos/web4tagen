@@ -1,0 +1,34 @@
+Inicializar un repositorio vacío en la carpeta actual
+
+$ git init
+
+Checar el status del repo, cada que hay un cambio git informa con este comando, untracked, significa que es nuevo archivo o no lo sigue
+
+$ git status
+
+Para agregar un nuevo archivo al control de cambios, hay que agregarlo al tracking. Add to the Staging Area
+
+
+$ git add <archivo>
+
+Para desagregar algún archivo del staging area y dejarlo fuera de un commit. 
+
+$ git rm --cached <file>...
+
+	We could add or remove files from the stage before we store them in the repository.
+
+ Para guardar nuestros staged changes (cambios observados por github) hay que decirle a github, qué es lo que ha cambiado.
+
+ $ commit -m "Descripción de los cambios"
+
+ Añadir muchos cambios, por ejemplo todos los txts's
+
+ $ git add '*.txt'
+
+ 
+
+
+
+
+
+

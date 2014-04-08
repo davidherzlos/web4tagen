@@ -1,0 +1,15 @@
+
+
+
+El objeto es lo mismo que el contexto, osea, osea el objeto window es el contexto global, el objeto obj es el contexto del objeto obj
+El objeto al cual un método pertenece, está dispinible a traves del cuerpo del método, como this
+Cuando invocamos una función como el metodo de un objeto, el objeto se convierte en el contexto de la función está disponible dentro de la función vía el parámetro this
+ Las funciones tienen contexto, y ese contexto es creado por el objeto al cual pertenecen.
+ Hablan del window object as a global scope
+
+
+Una función invocada de varias maneras, puede servir como función "normal" o como metodo
+Para utilizar funciones como función o metodo, etc, es importante saber como llamarla mas que como crearla o declararla
+Las funciones se instancian, como los objetos, porque son objetos
+
+No necesitamos crear copias separadas de funciones para diferentes objetos si van a hacer lo mismo, puedes usar una misma instancia de función para utilizarse por distintos objetos, tarán.
