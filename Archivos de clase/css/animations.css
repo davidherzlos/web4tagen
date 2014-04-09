@@ -1,0 +1,44 @@
+body {
+	margin: auto;
+}
+#caja-main{
+	width: 100%;
+	text-align: center;
+}
+#caja1, #caja2, #caja3 {
+	width: 30%;
+	background: #A697D5;
+	height: 100px;
+	margin: 1% 1%;
+}
+#caja1, #caja2, #caja3 {
+	display: inline-block;
+
+}
+
+/*Animaciones*/
+
+#caja1, #caja2, #caja3 {
+	width: 30%;
+	background: #A697D5;
+	height: 100px;
+	margin: 1% 1%;
+	transition-duration: 5s;
+	transition-timing: ease-in;
+	-moz-transition-duration: 1s;
+	-moz-transition-timing: ease-in;
+
+}
+
+#caja1:active{
+	width: 30%;
+	background: #869F3C;
+	height: 100px;
+	margin: 1% 1%;
+	transform: translateY(300px);
+	-moz-transform: translateY(300px);
+	border-radius: 5em;
+	-moz-border-radius: 50em;
+}
+
+
